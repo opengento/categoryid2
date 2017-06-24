@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * This file is part of Opengento_Categoryid for Magento.
+ *
+ * @license MIT
+ * @author Maxime Huran <m.huran@monsieurbiz.com> <@MaximeHuran>
+ * @category Opengento
+ * @package Opengento_Categoryid
+ * @copyright Copyright (c) 2017 Opengento (https://www.opengento.fr/)
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <type name="Magento\Catalog\Block\Adminhtml\Category\Tree">
+        <plugin name="add_category_id_in_tree" type="Opengento\Categoryid\Plugin\Block\Adminhtml\Category\TreePlugin" sortOrder="1"/>
+    </type>
+    <type name="Magento\Catalog\Controller\Adminhtml\Category\Edit">
+        <plugin name="add_category_id_in_title" type="Opengento\Categoryid\Plugin\Controller\Adminhtml\Category\EditPlugin" sortOrder="1"/>
+    </type>
+</config>

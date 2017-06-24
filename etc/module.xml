@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * This file is part of Opengento_Categoryid for Magento.
+ *
+ * @license MIT
+ * @author Maxime Huran <m.huran@monsieurbiz.com> <@MaximeHuran>
+ * @category Opengento
+ * @package Opengento_Categoryid
+ * @copyright Copyright (c) 2017 Opengento (https://www.opengento.fr/)
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Module/etc/module.xsd">
+    <module name="Opengento_Categoryid" setup_version="1.0.0">
+        <sequence>
+        </sequence>
+    </module>
+</config>

@@ -1,0 +1,21 @@
+{
+    "name": "opengento/categoryid2",
+    "homepage": "https://github.com/opengento/categoryid2",
+    "description": "This module adds the category ID in the page title, and on the left tree of the categories management.",
+    "type": "magento2-module",
+    "license": [
+        "MIT"
+    ],
+    "require": {
+        "php": "~5.6.0|~7.0.0",
+            "magento/framework": "100.0.*|100.1.*"
+        },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Opengento\\Categoryid\\": ""
+        }
+    }
+}
